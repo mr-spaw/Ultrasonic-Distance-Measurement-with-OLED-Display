@@ -1,13 +1,12 @@
-//trig pin(ultrasonic sensor)->12
-//echo pin(ultrasonic sensor)->13
-//SDA(Oled)->A4
-//SCK(Oled)->A5
-//Vcc(Oled)->3.3V
-//Gnd(both)->GND
-//Vcc(ultrasonic sensor)->5v
+*/trig pin(ultrasonic sensor)->12 
+echo pin(ultrasonic sensor)->13 SDA(Oled)->A4 
+SCK(Oled)->A5
+Vcc(Oled)->3.3V
+Gnd(both)->GND 
+Vcc(ultrasonic sensor)->5v*/
 
 
-//CODE
+
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <NewPing.h>
